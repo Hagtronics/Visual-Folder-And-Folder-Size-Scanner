@@ -2,9 +2,9 @@
 A useful(?) utility for examining what folders / directories on a disk are taking up space.
 Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a prettier GUI experience (see requirements.txt)
   
-##Figure 1 – Overview of GUI  
+## Figure 1 – Overview of GUI  
   
-##Usage:  
+## Usage:  
 1) Get the code, and make sure that ttkbootstrap is installed on your system.
 2) Run the code.
 3) Select a folder as a starting point. After the folder is selected the directory scanning begins automatically. This may take some time, please be patient.
@@ -14,11 +14,11 @@ Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a p
 7) The Path/Size data may be saved to a CSV file for late use by pressing the “Save to CSV” button at the top of the form.
 8) The “Toggle Theme” button toggles the theme from light to dark and back again.
   
-##Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.
+## Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.
   
-##Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
+## Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
   
-##Speed:  
+## Speed:  
 
 I know what you are thinking…. You are thinking that using Python for a big folder walk is going to be as slow as molasses, right? Because everyone thinks that Python is the slowest language on the face of the Earth right? 
 
