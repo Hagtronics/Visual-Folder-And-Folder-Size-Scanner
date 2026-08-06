@@ -16,23 +16,23 @@ Tested on Windows 7, 10 and 11.
 7) The Path/Size data may be saved to a CSV file for late use by pressing the “Save to CSV” button at the top of the form.
 8) The “Toggle Theme” button toggles the theme from light to dark and back again.
   
-### Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.  
+#### Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.  
 ![what-output-means](images/what_output_means.png)  
   
-## Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
+### Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
 ![right-click](images/right_click.png)  
   
 ## Speed:  
 
-I know what you are thinking…. You are thinking that using Python for a big folder walk is going to be as slow as molasses, right? Because everyone thinks that Python is the slowest language on the face of the Earth right? 
+I know what you are thinking... You are thinking that using Python for a big folder walk is going to be as slow as molasses, right? Because everyone 'knows' that Python is the slowest language on the face of the Earth right? 
 
 Let’s examine the facts,
 
-I sent this program on my entire 190,000 ‘User’ directory of my PC. This program took 34 Seconds to complete the task.
+I sent this program loose on the entire 190,000 ‘User’ directory of my PC. This program took 34 Seconds to complete the task.
 
-I wrote a similar program in compiled C# .NET 8, and it took 122 Seconds to traverse the same folders! I had to add multi-threading parallel-for elements to the C# program which got the time down to 25 Seconds. This is really only marginally faster than the Python program.
+I wrote a similar program in compiled C# .NET 8, and it took 122 Seconds to traverse the same folders! I had to add multi-threading parallel-for elements to the C# program which got the time down to 25 Seconds.
 
-Interestingly, the C# Parallel For-Loop also spins up all 12 threads of my notebook to 100% and makes the fans start, something the Python program does not do. All that to get a marginal gain.
+Interestingly, the C# Parallel For-Loop also spins up all 12 threads of my notebook to 100%, making the fans start, something the Python program does not do. All that to get a marginal gain.
 
 Enjoy!
 
