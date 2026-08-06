@@ -3,6 +3,7 @@ A useful(?) utility for examining what folders / directories on a disk are takin
 Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a prettier GUI experience (see requirements.txt)
   
 ### Figure 1 – Overview of GUI  
+![overview](images/screen_shot.png)
   
 ## Usage:  
 1) Get the code, and make sure that ttkbootstrap is installed on your system.
@@ -14,9 +15,11 @@ Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a p
 7) The Path/Size data may be saved to a CSV file for late use by pressing the “Save to CSV” button at the top of the form.
 8) The “Toggle Theme” button toggles the theme from light to dark and back again.
   
-### Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.
+### Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.  
+![forest](images/forest.jpg)  
   
 ## Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
+![forest](images/forest.jpg)  
   
 ## Speed:  
 
