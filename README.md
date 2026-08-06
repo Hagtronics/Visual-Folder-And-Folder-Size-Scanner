@@ -3,7 +3,7 @@ A useful(?) utility for examining what folders / directories on a disk are takin
 Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a prettier GUI experience (see requirements.txt).  
 Tested on Windows 7, 10 and 11.  
   
-### Figure 1 – Overview of GUI  
+#### Figure 1 – Overview of GUI  
 ![overview](images/screen_shot.png)
   
 ## Usage:  
