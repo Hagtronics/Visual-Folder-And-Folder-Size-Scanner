@@ -16,10 +16,10 @@ Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a p
 8) The “Toggle Theme” button toggles the theme from light to dark and back again.
   
 ### Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.  
-![forest](images/forest.jpg)  
+![what-output-means](images/what_output_means.png)  
   
 ## Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
-![forest](images/forest.jpg)  
+![right-click](images/right_click.png)  
   
 ## Speed:  
 
