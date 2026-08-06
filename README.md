@@ -1,4 +1,4 @@
-# Visual Folder Size Scanner
+# Visual Folder Size Scanner and Viewer
 A useful(?) utility for examining what folders / directories on a disk are taking up space.
 Written in Pure Python 3.12+ with the only dependency being ttkbootstrap for a prettier GUI experience (see requirements.txt)
   
