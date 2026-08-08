@@ -28,11 +28,11 @@ I know what you are thinking... You are thinking that using Python for a big fol
 
 Let’s examine the facts,
 
-I sent this program loose on the entire 190,000 ‘User’ directory of my PC. This program took 34 Seconds to complete the task.
+I sent this program loose on the entire 190,000 ‘User’ directory of my laptop. This program took 34 Seconds to complete the task.
 
-I wrote a similar program in compiled C# .NET 8, and it took 122 Seconds to traverse the same folders! I had to add multi-threading parallel-for elements to the C# program which got the time down to 25 Seconds.
+I wrote a similar program in compiled C# .NET 8, and it took 122 Seconds to traverse the same folders! I had to add multi-threading, parallel-for elements to the C# program which got the time down to 25 Seconds.
 
-Interestingly, the C# Parallel For-Loop also spins up all 12 threads of my notebook to 100%, making the fans start, something the Python program does not do. All that to get a marginal gain.
+Interestingly, the C# Parallel For-Loop also spins up all 12 threads of my laptop to 100%, making the fans start, something the Python program does not do. All that to get a marginal gain.
 
 Enjoy!
 
