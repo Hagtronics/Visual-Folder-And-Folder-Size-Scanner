@@ -19,7 +19,7 @@ Tested on Windows 7, 10 and 11.
 #### Figure 2 – The reported folder size is the sum of that folder and all the sub-folders. In this example, the folder that really contains the 11GB of data is the last one, the folders above it are the sum of that folder and all sub-folders. This is the same way that the Windows Explorer ‘Properties’ function works.  
 ![what-output-means](images/what_output_means.png)  
   
-### Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
+#### Figure 3 – Right clicking on a ‘Row’ will bring up the following menu options.  
 ![right-click](images/right_click.png)  
   
 ## Speed:  
